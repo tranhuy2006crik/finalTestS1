@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-left">
+            <button class="start-button">Bắt đầu</button>
+            <div class="game-board">
+                <div class="line">
+                    <div class="box bg-green-100 text-green-500">1</div>
+                    <div class="box bg-red-100 text-red-500">2</div>
+                    <div class="box bg-blue-100 text-blue-500">3</div>
+                    <div class="box bg-purple-100 text-purple-500">4</div>
+                </div>
+                <div class="line">
+                    <div class="box bg-yellow-100 text-yellow-500">5</div>
+                    <div class="box bg-pink-100 text-pink-500">6</div>
+                    <div class="box bg-blue-100 text-blue-500">7</div>
+                    <div class="box bg-gray-100 text-gray-500">8</div>
+                </div>
+                <div class="line">
+                    <div class="box bg-green-100 text-green-500">9</div>
+                    <div class="box bg-yellow-100 text-yellow-500">10</div>
+                    <div class="box bg-lime-100 text-lime-500">11</div>
+                    <div class="box bg-black   text-cyan-500 box-arrow"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-right">
+            <div class="timer-box">
+                <h2>Đồng Hồ</h2>
+                <div class="timer">00:00</div>
+            </div>
+            <div class="control-box">
+                <h2 style="font-weight: bold;">Hướng Dẫn Di Chuyển</h2>
+                <div class="control-keys">
+                    <button class="key">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                    <div class="key-row">
+                        <button class="key">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <button class="key">
+                            <i class="fas fa-arrow-down"></i>
+                        </button>
+                        <button class="key">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="control-keys">
+                        <button class="key">W</button>
+                        <div class="key-row">
+                            <button class="key">A</button>
+                            <button class="key">S</button>
+                            <button class="key">D</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="table-section bg-white-100" style="background:#fff;">
+        <h2>Lịch Sử Lượt Chơi</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Bước đi</th>
+                    <th>Thời Gian</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
